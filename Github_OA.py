@@ -14,7 +14,7 @@ github_api = "https://api.github.com"
 # security token 
 with requests.sessions.Session() as session:
 
-    session.auth = ("kaileili", "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")
+    session.auth = ("kaileili", "")
 
 pull_requests_url = github_api + '/repos/tensorflow/tensorflow/pulls'
 
